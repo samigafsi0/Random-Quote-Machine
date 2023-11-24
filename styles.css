@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html,
+body,
+#host-layer,
+#machine-app {
+  width: 100%;
+  height: 100%;
+}
+
+#quote-box {
+  background: white;
+  width: 720px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#text {
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 3em;
+  font-family: Dosis;
+  font-weight: 400;
+  padding: 20px;
+}
+
+#author {
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-weight: 600;
+  font-family: Dosis;
+  padding-bottom: 30px;
+  font-style: italic;
+}
+
+#buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+#tweet-quote {
+  color: green;
+  font-size: 3.5em;
+  width: 100%;
+  margin: auto 30px;
+  text-align: center;
+}
+
+#new-quote {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5em;
+  width: 100%;
+  flex: 0 0 350px;
+  margin: auto 30px;
+}
